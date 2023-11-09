@@ -27,7 +27,7 @@ select first_name, last_name, rating from actors
  -- windows no distingue entre mayusculas y minisculas
  
  select title, rating, awards from movies 
- where title like "a%"; -- que empiece con alter
+ where title like "a%"; -- que empiece con a
  
 select title, rating, awards from movies 
  where title like "%a"; -- que termine con a
